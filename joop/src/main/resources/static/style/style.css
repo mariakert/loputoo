@@ -1,0 +1,21 @@
+ul {
+    list-style-type: none;
+}
+
+.disabled {
+    pointer-events: none;
+    cursor: default;
+    color: darkgray;
+}
+
+.sortorder:after {
+  content: '\25b2';
+}
+
+.sortorder.reverse:after {
+  content: '\25bc';
+}
+
+.table-link {
+    cursor: pointer;
+}
